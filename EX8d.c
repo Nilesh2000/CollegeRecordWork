@@ -3,6 +3,7 @@
  {
   int realPart, imaginaryPart;
  };
+
  void Menu();
 struct Complex readComplex();
 void displayComplex(struct Complex c);
