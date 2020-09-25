@@ -1,7 +1,7 @@
 import java.net.*;  
 import java.io.*; 
 
-class ChatServer {  
+class TCPChatServer {  
   public static void main(String args[]) throws Exception {  
     ServerSocket ss = new ServerSocket(3344);  
     Socket s = ss.accept();  

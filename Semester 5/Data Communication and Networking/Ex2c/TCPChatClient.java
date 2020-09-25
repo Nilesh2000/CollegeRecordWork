@@ -1,7 +1,7 @@
 import java.net.*;  
 import java.io.*;
 
-class ChatClient {  
+class TCPChatClient {  
   public static void main(String args[]) throws Exception {  
     Socket s = new Socket("127.1.1.0",3344);  
     DataInputStream din = new DataInputStream(s.getInputStream());  

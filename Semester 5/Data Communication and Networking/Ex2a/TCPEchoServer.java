@@ -1,8 +1,8 @@
 import java.io.*;
 import java.net.*;
 
-public class EchoServer {
-  public EchoServer(int portnum) {
+public class TCPEchoServer {
+  public TCPEchoServer(int portnum) {
     try {
       server = new ServerSocket(portnum);
     } catch(Exception err) {
@@ -31,7 +31,7 @@ public class EchoServer {
   }
 
   public static void main(String[] args) {
-    EchoServer s = new EchoServer(9999);
+    TCPEchoServer s = new TCPEchoServer(9999);
     s.serve();
   }
 
