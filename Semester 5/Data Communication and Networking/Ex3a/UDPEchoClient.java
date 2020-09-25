@@ -2,6 +2,7 @@ import java.io.*;
 import java.net.*;
 class UDPEchoClient {
   public static class UDPEchoReader extends Thread {
+    
     public UDPEchoReader(DatagramSocket socket) {
       datagramSocket = socket;
       active = true;

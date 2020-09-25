@@ -3,6 +3,7 @@ import java.net.*;
 
 public class TCPEchoClient {
   public static void main(String[] args) {
+
     try {
       Socket s = new Socket("127.0.0.1", 9999);
       BufferedReader r = new BufferedReader(new InputStreamReader(s.getInputStream()));
@@ -19,5 +20,6 @@ public class TCPEchoClient {
     } catch(Exception err) {
       System.err.println(err);
     }
+    
   }
 }

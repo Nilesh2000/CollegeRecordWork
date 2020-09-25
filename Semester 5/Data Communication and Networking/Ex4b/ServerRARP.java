@@ -26,7 +26,7 @@ class ServerRARP
         {
           if(s.equals(mac[i])) {
             sendbyte = ip[i].getBytes();
-            DatagramPacket sender = new DatagramPacket(sendbyte,sendbyte.length,addr,port);
+            DatagramPacket sender = new DatagramPacket(sendbyte, sendbyte.length, addr, port);
             server.send(sender);
             break;
           }

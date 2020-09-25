@@ -2,8 +2,10 @@ import java.net.*;
 import java.io.*;
 public class UDPEchoServer {
   public static void main(String args[]) {
+
     int port = 8000;
     DatagramSocket serverDatagramSocket = null;
+    
     try {
       serverDatagramSocket = new DatagramSocket(port);
       System.out.println("Created UDPEchoServer on port"+port);

@@ -15,7 +15,7 @@ class Traceroute {
         System.out.println("Could not connect");
       }
 
-      while((line=in.readLine()) != null) {
+      while((line = in.readLine()) != null) {
           System.out.println(line);
       }
 
