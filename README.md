@@ -8,7 +8,26 @@
 
 #### Semester 3
 * [IT Essentials Laboratory](https://github.com/Nilesh2000/CollegeRecordWork/tree/master/Semester%203/IT%20Essentials)
+
 * [Data structures and Algorithms Laboratory](https://github.com/Nilesh2000/CollegeRecordWork/tree/master/Semester%203/Data%20Structures%20And%20Algorithms)
+  * Array of Structures
+  * Singly Linked List
+  * Doubly Linked List
+  * Circular Linked List
+  * Array Implementation - Stack
+  * Balanced Parantheses
+  * Circular Queue
+  * Binary Search Tree
+  * AVL Tree
+  * Min Heap
+  * Dijkstra's Algorithm
+  * Floyd Warshall Algorithm
+  * Bubble Sort
+  * Insertion Sort
+  * Selection Sort
+  * Linear Search
+  * Binary Search
+  
 * [Database Systems Laboratory](https://github.com/Nilesh2000/CollegeRecordWork/tree/master/Semester%203/IT%20Essentials)
 
 #### Semester 4
